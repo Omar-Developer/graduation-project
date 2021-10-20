@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/cardNumber"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:background="@drawable/inputfield"
+        android:ems="10"
+        android:fontFamily="@font/regular"
+        android:hint="ATM Card Number"
+        android:inputType="number"
+        android:text=""
+        android:maxLength="16"
+        android:textColorHint="@color/hints"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regInfo"
+        app:layout_constraintVertical_bias="0.068"
+        />
+
+    <EditText
+        android:id="@+id/PIN"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:background="@drawable/inputfield"
+        android:ems="10"
+        android:fontFamily="@font/regular"
+        android:hint="ATM PIN"
+        android:inputType="numberPassword"
+        android:text=""
+        android:maxLength="4"
+        android:textColorHint="@color/hints"
+        android:drawablePadding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardNumber"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <EditText
+        android:id="@+id/accountNumber"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:background="@drawable/inputfield"
+        android:ems="10"
+        android:fontFamily="@font/regular"
+        android:hint="Account Number"
+        android:drawablePadding="10dp"
+        android:inputType="number"
+        android:text=""
+        android:maxLength="15"
+        android:textColorHint="@color/hints"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PIN"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <Button
+        android:id="@+id/regbttn2"
+        android:layout_width="160dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="92dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/regular"
+        android:text="Register"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accountNumber"
+        app:layout_constraintVertical_bias="0.335" />
+
+    <TextView
+        android:id="@+id/helloThere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bold"
+        android:text="Register."
+        android:textColor="@color/darkBlue"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.251" />
+
+    <TextView
+        android:id="@+id/regInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"
+        android:text="Please fill the following fields in order to Register."
+        android:textColor="@color/darkBlue"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helloThere"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"
+        android:text="Created By KSU Computer Science Students."
+        android:textColor="@color/darkBlue"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998" />
+
+
+    <ImageView
+        android:id="@+id/ksuLogo"
+        android:layout_width="44dp"
+        android:layout_height="53dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/ksu_shieldlogo_colour_rgb" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/helloThere"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.163"
+        app:srcCompat="@drawable/arrow" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0A2144</color>
+    <color name="colorPrimaryDark">#0A2144</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="darkBlue">#0A2144</color>
+    <color name="lightBlue">#6998DF</color>
+    <color name="lighterBlue">#AECDFB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="textfield">#DADEE3</color>
+    <color name="pass">#53637B</color>
+    <color name="hints">#728093</color>
+    <color name="lightRed">#FC5A5A</color>
+    <color name="blue">#0000FF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFB642</color>
+    <color name="checked">#00802b</color>
+    <color name="unchecked">#ff4d4d</color>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="apptour">
+        <item>@drawable/finger</item>
+        <item>@drawable/heart</item>
+        <item>@drawable/bag</item>
+        <item>@drawable/apple</item>
+
+        <item>@drawable/smile</item>
+        <item>@drawable/rose</item>
+        <item>@drawable/car</item>
+        <item>@drawable/moon</item>
+
+        <item>@drawable/tree</item>
+        <item>@drawable/cloud</item>
+        <item>@drawable/mosque</item>
+        <item>@drawable/fire</item>
+
+        <item>@drawable/camera</item>
+        <item>@drawable/airplane</item>
+        <item>@drawable/coffee</item>
+    </array>
+    <array name="clr">
+        <item>@color/red</item>
+        <item>@color/black</item>
+        <item>@color/blue</item>
+        <item>@color/yellow</item>
+    </array>
+</resources>
